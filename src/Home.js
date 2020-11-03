@@ -1,8 +1,14 @@
 import React, { Component } from "react";
+import Nav from "./NavBar.js";
 
 class Home extends Component {
   render() {
-    return <div>'lechic'</div>;
+    return (
+      <div>
+        <h1>'lechic'</h1>
+        <Nav />
+      </div>
+    );
   }
 }
 
