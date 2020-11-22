@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import Nav from "./NavBar.js";
 
-class Menu extends Component {
+class News extends Component {
   render() {
     return (
       <div>
-        <h1>'Menu page'</h1>
+        <h1>'News'</h1>
         <Nav />
+        <h4>'We are getting a website'</h4>
       </div>
     );
   }
 }
 
-export default Menu;
+export default News;
